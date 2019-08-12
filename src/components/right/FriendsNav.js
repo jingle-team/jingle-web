@@ -4,7 +4,7 @@ import friendIcon from "../../img/friends.svg";
 export class FriendsNav extends Component {
   render() {
     return (
-      <ul id="friend-nav" className="nav nav-tabs nav-fill p-1">
+      <ul className="friend-nav nav nav-tabs nav-fill p-1">
         <li className="nav-item mr-2">
           <div id="friend-tag" className="pt-2">
             <img id="friend-icon" src={friendIcon} alt="friends icon" />

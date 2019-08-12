@@ -72,11 +72,6 @@ tr {
   height: 32px;
 }
 
-.user-actions {
-  width: 25px;
-  height: 25px;
-}
-
 /* RIGHT COLUMN */
 
 #right {
@@ -103,7 +98,7 @@ tr {
   font-weight: bold;
 }
 
-#friend-nav {
+.friend-nav {
   border-color: black;
   border-width: 2px;
 }
@@ -169,4 +164,25 @@ tr {
   flex-grow: 2;
   text-align: right;
   padding-right: 1rem;
+}
+
+#chat-screen-nav {
+  background: green;
+  border-color: black;
+}
+
+.action-icons {
+  width: 25px;
+  height: 25px;
+}
+
+#friend-chat-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem 0.75rem;
+}
+
+#friend-name-and-status {
+  color: white;
+  display: flex;
 }

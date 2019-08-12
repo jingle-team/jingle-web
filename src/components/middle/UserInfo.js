@@ -16,19 +16,19 @@ export class UserInfo extends Component {
 
         <div id="user-action-container">
           <img
-            className="user-actions mr-2"
+            className="action-icons mr-2"
             src={muteIcon}
             alt="mute icon"
             title="Mute"
           />
           <img
-            className="user-actions mr-2"
+            className="action-icons mr-2"
             src={deafenIcon}
             alt="deafen icon"
             title="Deafen"
           />
           <img
-            className="user-actions"
+            className="action-icons"
             src={settingsIcon}
             alt="settings icon"
             title="Settings"
